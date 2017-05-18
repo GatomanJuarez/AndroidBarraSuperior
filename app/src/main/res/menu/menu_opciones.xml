@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mAbout"
+        android:title="@string/menuAbout"
+        android:orderInCategory="100"
+        ></item>
+    <item
+        android:id="@+id/mSettings"
+        android:title="@string/settings"
+        android:orderInCategory="101"
+        ></item>
+    <item
+        android:id="@+id/mRefresh"
+        android:title="@string/Refresh"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:icon="@drawable/recurring_appointment_48"></item>
+</menu>
